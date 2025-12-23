@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel4U 旅遊網</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- 自訂 CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Travel4U</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navMenu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tour">行程推薦</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">聯絡我們</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 輪播圖 -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/tour1.jpg" class="d-block w-100" alt="旅遊">
+      <div class="carousel-caption">
+        <h2>探索世界</h2>
+        <p>開啟你的夢想旅程</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/tour2.jpg" class="d-block w-100" alt="旅遊">
+    </div>
+  </div>
+</div>
+
+<!-- 行程卡片 -->
+<section id="tour" class="container py-5">
+  <h2 class="text-center mb-4">熱門行程</h2>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/tour1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">海島假期</h5>
+          <p class="card-text">五天四夜 放鬆之旅</p>
+          <a href="#" class="btn btn-primary">查看詳情</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/tour2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">歐洲城市</h5>
+          <p class="card-text">文化美食之旅</p>
+          <a href="#" class="btn btn-primary">查看詳情</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/tour3.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">山林探險</h5>
+          <p class="card-text">大自然療癒行程</p>
+          <a href="#" class="btn btn-primary">查看詳情</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 聯絡表單 -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">聯絡我們</h2>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">姓名</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">留言</label>
+        <textarea class="form-control" rows="4"></textarea>
+      </div>
+      <button class="btn btn-success">送出</button>
+    </form>
+  </div>
+</section>
+
+<!-- 頁尾 -->
+<footer class="bg-dark text-white text-center p-3">
+  © 2025 Travel4U 旅遊網
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
