@@ -3,6 +3,11 @@ travel-website/
 ├─ index.html
 ├─ css/
 │   └─ styles.css
+└─ img/
+    ├─1.jpg
+    ├─2.jpg
+    └─3.webp
+
 .carousel img {
   height: 70vh;
   object-fit: cover;
